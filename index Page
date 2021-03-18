@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index.html</title>
+	<link rel = "stylesheet" href = "style.css">
+	<script type="text/javascript">
+	
+	function resizeText(multiplier) {
+  if (document.body.style.fontSize == "") {
+    document.body.style.fontSize = "1.0em";
+  }
+  document.body.style.fontSize = parseFloat(document.body.style.fontSize) + (multiplier * 0.2) + "em";
+}
+
+</script>
+
+<div class = "plus">
+
+<button id = "Plus" onclick="resizeText(1)">Plus</button> 
+</div>
+
+<div class = "minus">
+
+<button id = "Minus"onclick="resizeText(-1)">Minus</button> 
+</div>
+
+</head>
+
+<body>
+	<header> 
+	
+		<div class="container" backgorund = "black">
+			
+		
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="phones.html">Phones</a></li>
+					<li><a href="appleprod.html">Apple Products</a></li>
+					<li><a href="chargers.html">Chargers</a></li>
+					<li><a href= "contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+			</div>
+			
+	</header>
+	
+	
+	 
+		<img src="im1.png" alt = "Banner" style = "padding-left: 12%">
+	
+	<h1> Best Prices on Phones Anywhere! </h1>
+	<a href = "iphone_1.html">
+	<button >Click Me</button>
+	</a>
+	
+	<a href = "iphone11.html">
+	<button>Click Me</button>
+	</a>
+	<a href = "googlegal.html">
+	<button>Click Me</button>
+	</a>
+	
+	<p11>Iphone 1 </p11>
+	<p12>Iphone 11</p12>
+	<p13>Google Galaxy</p13>
+	
+	
+	
+	
+	<p
+	
+	
+	
+	<div class = "containering">
+		<div class = "gallery">
+		
+		
+			<img src = "iphone1.png" alt = "" style = "width: 100% ">
+			
+		
+	
+
+		</div>
+				
+		
+			<div class = "gallery">
+			<img src = "iphone11.png" alt = "" style = "width: 100% ">
+				
+		</div>
+					<div class = "gallery">
+			<img src = "galaxy.png" alt = "" style = "width: 100% ">
+
+						
+						
+		
+					
+		</div>
+		</div>
+		
+	<div class = "text_images">
+	<p1>£64 per month</p1>
+	<p2>£70 Per Month</p2>
+	<p3>£1000 Out Right</p3>
+	</div>
+
+	
+	
+	
+	
+	<h2>Look Around! You Might Find Something You Might Like</h2>
+	
+	
+
+	
+		</body>
+
+	
+			
+ 	<div class = "phone">
+		<a href="phones.html">
+	 <img src = "iphone11.png" alt = "" > </a>
+	 </div>
+		
+
+	 <p5>Here at Ryans Phone shop we are here to help. We have many phones to chose from. Here we are also able to do deals.
+	 This allows us to help You out! We have phones from £40 per month!</p5>
+	 
+	<p6>Phones</p6> 
+	 
+	<a href = "appleprod.html">
+	<div class ="apple_products">
+	<img src = "ipad.jpg" alt= ""> </a>
+		
+	<p7>Apple</p7>
+
+	 <p8>We have many products including apple products out of this we have Iphones and Ipads. <br> Click the image on the left hand side 
+	 to take you to the phone page or click on the nav bar to get you there. <br> <br> We have apple products on or site or you can come in store</p8>
+	
+		</div>
+		
+		<a href = "chargers.html"
+		<div class = "charger">
+
+		<img src = "Airpods_black.jpg" alt = ""></a>
+		</div>
+		<p9>Headphones</p9>
+		<p10>Here at the phone shop we have the best headphones on the market. <br> we have many apple products
+		from the airpods as shown in the image on the left. We also have got samsung ear buds.</p10>
+
+
+</body>
+
+	
+		</html>
+	
+	
+	
+	
+	
+				
+	
+
+
