@@ -1,0 +1,275 @@
+*{
+	background: #81D4Fa;
+}
+body {
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #81D4Fa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+nav {
+	padding-left: 300px;
+  allign: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.conteraing{
+	float: left;
+	margin: 25px;
+
+
+
+}
+
+.gallery{
+
+	border:1 px solid #ccc;
+	float: left;
+	display: flex; 
+    margin-left: 250px;
+    margin-top: 15px;
+	padding: 10px;
+}
+
+
+
+
+
+p1{
+
+	position:relative;
+	top: 275px;
+	right: 1025px;
+	
+}
+p2{
+	position: relative;
+	top: 275px;
+	right: 725px;
+}
+p3{
+	position: relative;
+	top:275px;
+	right: 425px;
+}
+
+
+button{
+	position: relative;
+	top: 350px;
+    margin-left: 320px;
+    background-color: #1e9bf4;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+button:hover{
+â€ƒbackground-color:#4095c6;
+}
+
+footer{
+	width: 100%;
+}
+
+h2{
+
+	text-align: center;
+	text-decoration: underline;
+	position: relative;
+	top: 450px;
+	right: 655px;
+	
+}
+
+.phone{
+	
+	position:relative;
+	top: 550px;
+	right: 1050px;
+}
+	
+p4{
+	position:relative;
+	top: 530px;
+	right: 1030px;
+	font-weight:200;
+	font-size: 23px;
+	text-decoration: underline;
+	
+}
+
+p5{
+	position: absolute;
+	top: 1450px;
+	margin-left: 22%;
+	
+	
+}
+
+
+p6{
+	position:absolute;
+	top: 1320px;
+	text-decoration:underline;
+	font-size:26px;
+	margin-left:260px;
+}
+.apple_products
+{
+	position:relative;
+	top:650px;
+	left:225px;
+}
+
+p7{
+	position:absolute;
+	bottom: 195px;
+	right: 1780px;
+	text-decoration:underline;
+	font-size:26px;
+	margin-left:260px;
+}
+
+p8{
+	position:absolute;
+	top: 10px;
+	font-size:15px;
+	margin-left:20px;
+	
+}
+.charger{
+	position:relative;
+	top:800px;
+	left:225px;
+}
+
+
+p9{
+	position:absolute;
+    top:1950px;
+    left: -10px;
+	text-decoration:underline;
+	font-size:26px;
+	margin-left:260px;
+
+}
+
+p10{
+	position:absolute;
+	top: 2100px;
+	font-size:15px;
+	margin-left:250px;
+	
+}
+
+p11{
+	position: relative;
+	right:950px;
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+p12{
+
+	position: relative;
+	right:650px;
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+p13{
+
+	position: relative;
+	right:350px;
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+
+.plus{
+	position: relative;
+	bottom: 250px;
+	left: 1150px;
+}
+
+.minus{
+	position: relative;
+	bottom: 285px;
+	left: 1250px;
+}
+
+
+
+
+
